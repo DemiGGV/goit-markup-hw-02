@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <title>Studio</title>
   </head>
@@ -11,20 +17,30 @@
   <body>
     <!-- Header navigation section -->
     <header>
-      <nav>
-        <a href="./index.html"><span>WEB</span>STUDIO</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./index.html">Contacts</a></li>
+      <nav class="main-nav">
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">WEB</span>STUDIO</a
+        >
+        <ul class="main-menu">
+          <li class="main-menu-item">
+            <a href="./index.html">Studio</a>
+          </li>
+          <li class="main-menu-item">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="main-menu-item">
+            <a href="./index.html">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-address">
+        <li class="header-address-mail">
+          <a href="mailto:info@devstudio.com" class="main-e-mail"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <li class="header-address-tel">
+          <a href="tel:+110001111111" class="main-tel">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </header>
@@ -65,7 +81,7 @@
           <li>
             <h3>Technologies</h3>
             <p>
-              >Design practice focused on digital experiences. We bring forth a
+              Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
