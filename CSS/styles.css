@@ -32,8 +32,8 @@ header{
     position: sticky;
     top: 0;
     display: flex;
-    flex-flow: row wrap;
-    /* justify-content: space-around; */
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
 }
 
 .logo {
@@ -45,17 +45,16 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--Dark);
+    width: 71;
 }
 .logo-web {
-    color: var(--primary-brand)
-}
-.main-menu{
-    display: flex;
-    width: 1440px;
+    color: var(--primary-brand);
 }
 .main-nav{
     display: flex;
+    width: 261px;
 }
 .header-address{
     display: flex;
+    width: 155;
 }
