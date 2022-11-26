@@ -9,7 +9,7 @@
     /* --line-h */
 }
 body {
-}
-ul,
-a {
+    color: var(--_text);
+    font-family: roboto, raleway, sans-serif;
+    font-size: 1em;
 }
