@@ -14,28 +14,66 @@
 body {    
     color: var(--_text);
     background-color: var(--bgc-white);
-    font-family: roboto, raleway, sans-serif;
+    font-family: 'roboto', 'sans-serif';
     font-size: var(--kegl);
 }
 
 /* header styles */
 .header li,
-.header a{
+.header a {
     list-style: none;
     text-decoration: none;
 }
 
-.header{}
+.header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header .menu-link {
+    color: var(--Dark)
+}
+
+.addr-mail,
+.addr-tel {
+    color: var(--_text);
+}
 
 /* Logo styles */
-.logo{
-    font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800;
     font-size: 1.125em;
     letter-spacing: 0.03em;
     color: var(--Dark);
 }
-.logo-web{
+.logo-web {
     color: var(--primary-brand);
 }
+
+/* index.html */
+/* title section styles */
+.main-section {
+    background-color: var(--Dark);
+    color: var(--bgc-white);
+}
+
+.main-title {
+    font-size: 3.5em;
+    line-height: 3.75em;
+}
+.order-btn {
+    line-height: 1.1875em;
+    background-color: var(--primary-brand);
+    color: var(--bgc-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+}
+.order-btn:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+    border: 0;
+}
+
+/* Our benefits section */
 
