@@ -107,6 +107,7 @@ body {
     letter-spacing: 0.04em;
     background-color: var(--primary-brand);
     color: var(--bgc-white);
+    cursor: pointer;
 }
 
 /* .order-btn:hover,
@@ -177,6 +178,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--primary-brand);
     background-color: var(--Light);
+    cursor: pointer;
 }
 
 .filter-button:hover,
