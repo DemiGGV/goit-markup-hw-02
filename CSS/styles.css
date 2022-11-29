@@ -40,9 +40,22 @@ body {
     font-weight: 600;
 }
 
+.header .menu-link:hover,
+.header .menu-link:focus {
+    background-color: var(--Accent);
+    opacity: 0.2;
+}
+
 .addr-mail,
 .addr-tel {
     color: var(--_text);
+}
+
+.addr-mail:hover,
+.addr-tel:hover,
+.addr-mail:focus,
+.addr-tel:focus {
+    color: var(--primary-brand);
 }
 
 /* Logo styles */
@@ -60,7 +73,8 @@ body {
 
 /*--- index.html styles ---*/
 
-.section {}
+/* .section {} */
+
 .section-title {
     font-weight: 600;
     font-size: 2.25em;
@@ -73,13 +87,13 @@ body {
 /* title section styles */
 .main {
     background-color: var(--Dark);
-    color: var(--bgc-white);
 }
 
 .main-title {
     font-size: 3.5em;
     line-height: 1.07;
     text-align: center;
+    color: var(--bgc-white);
 }
 
 .order-btn {
@@ -92,42 +106,43 @@ body {
     color: var(--bgc-white);
 }
 
-.order-btn:hover,
-.order-btn:focus, {}
+/* .order-btn:hover,
+.order-btn:focus, {} */
 
 .order-btn:active {
     background: var(--order-active);
 }
 
 /* Our benefits section */
-.benefits {}
+/* .benefits {} */
 
-.card-list {}
+/* .card-list {} */
 
-.card-item {}
+/* .card-item {} */
 
-.card-header,
 .title {
     font-weight: 600;
     font-size: 1.25em;
-    text-align: center;
     color: var(--Dark);
 }
 
-.card-text {}
+/* .text {} */
 
 /* Our gallery section style */
-.gallery {}
+/* .gallery {} */
 
-.card-list {}
+/* .card-list {} */
 
-.card-item {}
+/* .card-item {} */
+
+/* .card-img {} */
 
 /* Our team section */
-.team {}
+/* .team {} */
 
-.section-lists {}
+/* .card-list {} */
 
+.team .title,
 .team .text {
     text-align: center;
 }
@@ -143,24 +158,43 @@ body {
     line-height: 1.17;
 }
 
-.text {}
+/* .text {} */
 
 /*--- portfolio.html styles ---*/
 
-.filters {}
+.filters {
+    list-style: none;
+}
 
-.filter-button {}
+.filter-button {
+    font-weight: 600;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background-color: var(--Light);
+}
 
-.gallery {}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--bgc-white);
+    background-color: var(--primary-brand);
+}
 
-.gallery-item {}
+/* .card-list {} */
 
-.galery-card {}
+/* .card-item {} */
 
-.image {}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
 
-.text {}
+/* .image {} */
 
-.title {}
+/* .text {} */
 
-.filter-tag {}
+/* .title {} */
+
+/* .filter-tag {} */
