@@ -21,12 +21,15 @@ body {
 }
 
 /* header styles */
-.header li,
+.menu-item,
+.addr-item,
 .card-item {
     list-style: none;
 }
 
-.header a,
+.menu-link,
+.addr-mail,
+.addr-tel,
 .logo {
     text-decoration: none;
 }
