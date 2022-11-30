@@ -27,10 +27,8 @@ body {
     color: var(--_text);
     background-color: var(--bgc-white);
     font-family: 'roboto', 'sans-serif';
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 /* header styles */
@@ -58,8 +56,7 @@ body {
 
 .header .menu-link:hover,
 .header .menu-link:focus {
-    background-color: var(--Accent);
-    opacity: 0.2;
+    color: var(--primary-brand);
 }
 
 .addr-mail,
@@ -80,6 +77,7 @@ body {
     font-weight: 800;
     font-size: 1.125em;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--Dark);
 }
 
@@ -117,18 +115,23 @@ body {
     font-weight: 600;
     font-size: inherit;
     line-height: 1.1875;
+    /* line-height: inherit; */
+    text-align: center;
     letter-spacing: 0.04em;
-    background-color: var(--primary-brand);
     color: var(--bgc-white);
+    background-color: var(--primary-brand);
     cursor: pointer;
 }
 
-/* .order-btn:hover,
-.order-btn:focus, {} */
-
-.order-btn:active {
-    background: var(--order-active);
+.order-btn:hover,
+.order-btn:focus {
+    color: var(--bgc-white);
+    background-color: var(--order-active);
 }
+
+/* .order-btn:active {
+    background: var(--order-active);
+} */
 
 /* Our benefits section */
 /* .benefits {} */
@@ -150,12 +153,16 @@ body {
 
 /* .card-list {} */
 
-/* .card-item {} */
+.card-item {
+    background-color: var(--bgc-white);
+}
 
 /* .card-img {} */
 
 /* Our team section */
-/* .team {} */
+.team {
+    background: var(--Light);
+}
 
 /* .card-list {} */
 
@@ -184,6 +191,7 @@ body {
 }
 
 .filter-button {
+    font-family: inherit;
     font-weight: 600;
     font-size: inherit;
     line-height: inherit;
@@ -210,8 +218,6 @@ body {
 }
 
 /* .image {} */
-
-/* .text {} */
 
 /* .title {} */
 
